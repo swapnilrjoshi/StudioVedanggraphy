@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    python:
+        build:
+            context: .
+            dockerfile: python_slim_Dockerfile
+        image: python-slim
+        volumes:
+            - D:\StudioVedanggraphy\Image_Resizing:/home/code
